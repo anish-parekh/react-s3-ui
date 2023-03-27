@@ -37,17 +37,19 @@
   }
 }
 
+.container {
+}
 
 .section1 {
   height: 50vh;
   width: 100vw;
-  background-color: #f0f0f0;
+  border-bottom: 1px solid black;
+
 }
 
 .section2 {
   height:50vh;
   width: 100vw;
-  background-color: #e0e0e0;  
 }
 
 
