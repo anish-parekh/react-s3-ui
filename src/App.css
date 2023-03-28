@@ -38,20 +38,41 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .section1 {
-  height: 50vh;
-  width: 100vw;
-  border-bottom: 1px solid black;
-
+  flex: 1 0 auto;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .section2 {
-  height:50vh;
-  width: 100vw;
+  flex: 1 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
+.section3 {
+  flex: 1 0 auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
+.sec1headerwrapper
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sec2headerwrapper
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sec3headerwrapper
+{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 
